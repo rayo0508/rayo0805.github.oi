@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+body {
+	background-image: url(videojuegos_1920x1080.jpg);
+}
+body,td,th {
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: Times New Roman, Times, serif;
+}
+-->
+</style></head>
+
+<body>
+<table width="864" height="1877" border="0">
+  <tr>
+    <td width="858" height="1873"><div align="left">
+      <p>La&nbsp;programaci&oacute;n de videojuego<strong>s</strong>&nbsp;es un proceso que pertenece a la creaci&oacute;n de un videojuego. Este proceso es efectuado por un programador de videojuegos, gracias a la programaci&oacute;n inform&aacute;tica. Casi siempre, la programaci&oacute;n de un videojuego se resume en repetir a trechos las siguientes acciones:</p>
+      <ul>
+        <li>Procesar las interacciones de un agente con su entorno seg&uacute;n las entradas del usuario.</li>
+        <li>Procesar los fen&oacute;menos indirectamente controlados por el usuario.</li>
+        <li>Crear una imagen a partir de esas informaciones y mostrarlo en la pantalla (igual para el sonido).</li>
+      </ul>
+      <p>El agente suele ser un personaje (generalmente llamado h&eacute;roe) pero tambi&eacute;n puede ser un coche, una nave, o cualquier otra cosa. El entorno suele ser compuesto por una decoraci&oacute;n est&aacute;tica y unos objetos interactivos (enemigos, objetos del inventario, puertas, entre otros.). El usuario manda entradas al programa por medio de un perif&eacute;rico como un joystick, un teclado o un rat&oacute;n. La gesti&oacute;n de las interacciones consiste en prever las acciones posibles sobre el entorno, detectar si han estado provocadas, y procesar respuestas. Por ejemplo, para crear una interacci&oacute;n como &quot;abrir la puerta&quot;, hay que decidir los procesos que permitir&aacute;n su cumplimiento (por ej. el jugador tiene que pulsar un bot&oacute;n pensado a tal efecto, tiene que estar bastante cercano, m&aacute;s o menos haciendo frente a la puerta), luego, durante el juego, hace falta detectar si las condiciones est&aacute;n cumplidas. Si eso as&iacute;, pues se genera una reacci&oacute;n: en nuestro ejemplo, mostrar en la pantalla la puerta abri&eacute;ndose.</p>
+      <table width="661" border="0">
+        <tr>
+          <td width="323" height="157"><img src="pong-video-game.gif" width="246" height="187" border="2" /></td>
+          <td width="322"><img src="9lnS.gif" width="299" height="186" border="2" /></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p>Los fen&oacute;menos indirectamente controlados por el usuario son varios y cambian mucho seg&uacute;n el juego. Se puede tratar de procesar la inteligencia artificial &nbsp;de los agentes no-controlados por el usuario, gestionar las colisiones entre agente y la f&iacute;sica (para los juegos que emplean un modelo f&iacute;sico realista).</p>
+      <p>Esas dos primeras partes pertenecen al gameplay &nbsp;(o sea, las reglas de interacciones) de un juego normalmente decidido por un dise&ntilde;ador de videojuego e implementado por un programador.</p>
+      <p>A medida que el nivel gr&aacute;fico crece, la creaci&oacute;n de un imagen y su display se hacen cada vez m&aacute;s complejos. Anta&ntilde;o casi exclusivamente en dos dimensiones, los entornos de los juegos ya son en la mayor&iacute;a de los casos en tres dimensiones. En todo los casos, la imagen es construida poco a poco en un espacio de memoria (el framebuffer) y no est&aacute; pintada en la pantalla antes que el dibujo sea acab&oacute; en su conjunto.</p>
+      <p>La creaci&oacute;n de un imagen en dos dimensiones suele empezar por el dibujo de los objetos m&aacute;s lejos, y tal acerc&aacute;ndose del jugador. Por ejemplo</p>
+      <ul>
+        <li>Creaci&oacute;n del fondo (el background) ayud&aacute;ndose de unos mosaicos (los tiles) propicios a los sistemas de desplazamiento (el scrolling) o simplemente de un fondo de pantalla &nbsp;(como para los antiguos juegos de aventura).</li>
+        <li>A&ntilde;adidura de im&aacute;genes (sprites) usando un sistema de recorte que permite dibujar formas complejas mientras que es imprescindible que las im&aacute;genes sean rectangulares en la memoria.</li>
+      </ul>
+      <p>La creaci&oacute;n de un imagen en tres dimensiones es mucho m&aacute;s compleja. Al contrario de los otros dominios de la s&iacute;ntesis de im&aacute;genes, en los videojuegos las im&aacute;genes tienen que ser creadas en tiempo real para garantizar que el display sea actualizado con una frecuencia alta. La dificultad para el programador radica en ser capaz de generar un imagen de alta calidad en un rato muy corto mientras se procesan los varios elementos del juego. Por eso, hoy la programaci&oacute;n de videojuegos es m&aacute;s y m&aacute;s vinculada con el hardware, utilizando en profundidad las funcionalidades de aceleraci&oacute;n de las tarjetas gr&aacute;ficas para optimizar el tratamiento de los objetos 3D y mejorando el codigo fuente.</p>
+      <p>La frecuencia de repetici&oacute;n de una operaci&oacute;n cambia mucho con respecto a la plataforma (ordenador, consola, m&oacute;vil, etc.). Se considera que hace falta por lo menos 24 im&aacute;genes por segundo para dar la impresi&oacute;n de movimiento en el cinema aunque este frecuencia debe ser m&aacute;s elevada en los videojuegos. Todas las partes de un programa no necesitan ser tratadas cada imagen (salvo la creaci&oacute;n y el display de aquellas im&aacute;genes).</p>
+      <p>Los programadores de videojuegos tambi&eacute;n tienen que desarrollar varios software y herramientas para ser utilizados en la cadena de producci&oacute;n de un videojuego: herramientas destinadas por ejemplo a los otros actores del desarrollo (los infograf&iacute;stas, animadores, dise&ntilde;adores de videojuego, entre otros), o tambi&eacute;n a correr un procesamiento por lotes.</p>
+      <p>&nbsp;</p>
+      <p><strong>&iquest;Qu&eacute; hay que estudiar para ser  programador de videojuegos?</strong></p>
+      <p><br />
+        Cada vez existen m&aacute;s opciones  para estudiar videojuegos y se puede hacer dif&iacute;cil escoger una. Por eso, vamos  a ahondar en qu&eacute; opciones existen, cu&aacute;les son las mejores y que otras  caracter&iacute;sticas, adem&aacute;s de la formaci&oacute;n, debe tener un&nbsp;buen programador de  videojuegos.</p>
+      <p><br />
+        As&iacute; las cosas, una de las  primeras opciones que te vas a encontrar es con cursos o cursos de programacion de videojuegos y realidad virtual con Unity 3D. No obstante,&nbsp;las opciones pueden ser m&aacute;s,  ya que existen alternativas en la universidad y en la formaci&oacute;n profesional,  tanto p&uacute;blica como privada.</p>
+      <p><br />
+        <strong>Motores gr&aacute;ficos;</strong><br />
+        Actualmente en la industria de  los videojuegos se demandan perfiles con buenas capacidades y conocimientos en  alguno de los principales motores gr&aacute;ficos que se emplean: Unity &nbsp;o Unreal engine. As&iacute;, para poder trabajar en  este sector, uno de los primeros requisitos es contar con amplios conocimientos  en el&nbsp;manejo de estos sistemas.</p>
+      <p><br />
+        <strong>Lenguajes de programaci&oacute;n;</strong><br />
+        Obviamente, otro de los  requisitos para acceder a puestos de trabajo como programador de videojuegos es  dominar el c&oacute;digo con el que se desarrollan. En este sentido, el lenguaje de  programaci&oacute;n m&aacute;s usado para la creaci&oacute;n de videojuegos es C++. Este lenguaje,  adem&aacute;s, es el que se usa dentro de los motores como Unreal o Unity para  el&nbsp;desarrollo de juegos.<br />
+        </p>
+      <p>Aprender C++ es fundamental  para el&nbsp;desarrollo de videojuegos, pero tambi&eacute;n es necesario tener  nociones de otros lenguajes de programaci&oacute;n.</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div></td>
+  </tr>
+</table>
+</body>
+</html>
